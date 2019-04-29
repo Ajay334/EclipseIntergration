@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31827" started-at="2019-04-29T06:03:28Z" finished-at="2019-04-29T06:04:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31827" started-at="2019-04-29T06:03:28Z" finished-at="2019-04-29T06:04:00Z">
+      <class name="com.testautomation.testcases.LoginApplication">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.testautomation.testcases.LoginApplication@1ce92674]" name="Setup" is-config="true" duration-ms="15124" started-at="2019-04-29T06:03:28Z" finished-at="2019-04-29T06:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="loginApplication()[pri:1, instance:com.testautomation.testcases.LoginApplication@1ce92674]" name="loginApplication" duration-ms="15289" started-at="2019-04-29T06:03:43Z" finished-at="2019-04-29T06:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="tearDownScreenshot(org.testng.ITestResult)[pri:0, instance:com.testautomation.testcases.LoginApplication@1ce92674]" name="tearDownScreenshot" is-config="true" duration-ms="143" started-at="2019-04-29T06:03:59Z" finished-at="2019-04-29T06:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApplication status=SUCCESS method=LoginApplication.loginApplication()[pri:1, instance:com.testautomation.testcases.LoginApplication@1ce92674] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownScreenshot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testautomation.testcases.LoginApplication@1ce92674]" name="tearDown" is-config="true" duration-ms="1225" started-at="2019-04-29T06:03:59Z" finished-at="2019-04-29T06:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testautomation.testcases.LoginApplication -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
